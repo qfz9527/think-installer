@@ -22,7 +22,7 @@ class ThinkTesting extends LibraryInstaller
      */
     public function getInstallPath(PackageInterface $package)
     {
-        if ('topthink/think-testing' !== $package->getPrettyName()) {
+        if ('qfz9527/think-testing' !== $package->getPrettyName()) {
             throw new InvalidArgumentException('Unable to install this library!');
         }
 
